@@ -7,27 +7,27 @@ body {
 }
 
 .project-grid {
-	display: flex;
+	display  : flex;
 	flex-wrap: wrap;
-	margin: 0 -10px;
+	margin   : 0 -10px;
 }
 
 .grid-item {
-    flex: 0 0 25%;
-	padding: 0 10px;
+	flex         : 0 0 25%;
+	padding      : 0 10px;
 	margin-bottom: 20px;
 }
 
 .grid-item--small {
 	max-width: 10%;
-    flex: 0 0 10%;
+	flex     : 0 0 10%;
 }
 
 .project {
-	position: relative;
-	background: #1e3542;
-	height: 140px;
-	padding: 20px 20px 35px;
+	position   : relative;
+	background : #1e3542;
+	height     : 140px;
+	padding    : 20px 20px 35px;
 	user-select: none;
 }
 
@@ -36,13 +36,13 @@ body {
 }
 
 .add-project:before {
-	position: absolute;
-	content: "Add project";
+	position  : absolute;
+	content   : "Add project";
 	text-align: center;
-	color: #a0a0a0;
-	left: 0;
-	right: 0;
-	bottom: 30px;
+	color     : #a0a0a0;
+	left      : 0;
+	right     : 0;
+	bottom    : 30px;
 }
 
 .add-project:hover:before {
@@ -50,15 +50,15 @@ body {
 }
 
 .add-project:after {
-	content: "+";
-	color: #a0a0a0;
-	position: absolute;
-    font-size: 90px;
-    font-weight: 100;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    line-height: 0;
+	content    : "+";
+	color      : #a0a0a0;
+	position   : absolute;
+	font-size  : 90px;
+	font-weight: 100;
+	top        : 40%;
+	left       : 50%;
+	transform  : translate(-50%, -50%);
+	line-height: 0;
 }
 
 .add-project:hover:after {
@@ -71,24 +71,24 @@ body {
 
 .project__title {
 	font-weight: 500;
-	font-size: 30px;
-	margin: 0 0 0.75em;
+	font-size  : 30px;
+	margin     : 0 0 0.75em;
 }
 
 .project__path {
-	color: #acadbf;
+	color    : #acadbf;
 	font-size: 14px;
-	margin: 0;
+	margin   : 0;
 }
 
 .project__remove {
 	position: absolute;
-	top: 10px;
-    right: 10px;
-    opacity: 0.4;
+	top     : 10px;
+	right   : 10px;
+	opacity : 0.4;
 }
 
 .project__remove:hover {
-	cursor: pointer;
+	cursor : pointer;
 	opacity: 1;
 }
